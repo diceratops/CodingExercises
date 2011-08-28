@@ -3,7 +3,7 @@ def bmi(w, h)
 end
 puts "Please enter your weight"
 w = gets.to_f
-puts "Please enters your height in inches"
+puts "Please enter your height in inches"
 h = gets.to_f
 puts "Your BMI is"
 puts bmi(w, h)
