@@ -1,14 +1,14 @@
 #hours in a year
 def hours
-	return  24 * 365
+	24 * 365
 end
 #minutes in a year
 def mins 
-	return hours * 60
+	hours * 60
 end
 #your age in seconds
 def age
-	return (mins * 29) * 60
+	(mins * 29) * 60
 end
 
 puts 'There are ' + hours.to_s + 'hours  in a year'
