@@ -1,7 +1,6 @@
 #99 Bottles of beer on the wall.
 puts 'How many bottles of beer are on the wall?'
-numStart = gets.to_i
-numBot = numStart
+numBot = gets.to_i
 
 
 while numBot > 2
