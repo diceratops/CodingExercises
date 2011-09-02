@@ -1,5 +1,8 @@
 puts 'Table of Contents'.center(60)
 chapters = [['1','Getting Started', '1'],['2', 'Numbers', '9'],['3', 'Letters', '13']]
+
+puts chapters[0][0]
+
 chapters.each do |chap|
         num = chap[0]
         title = chap[1]
