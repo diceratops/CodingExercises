@@ -12,3 +12,6 @@ if num < 0
 		return 'I said, Please give a positive integer'
 end
 puts 'the factorial of ' + num.to_s + ' is ' + factorial(num).to_s
+
+
+#simply using the word 'cat' up in the method to demonstrate that it lives in and STAYS in the method, factorial.
